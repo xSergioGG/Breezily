@@ -1,0 +1,6 @@
+name: Breezily
+main: me.zsergio.breezily.Main
+version: Final
+author: zSergioh
+commands:
+  breezily:
