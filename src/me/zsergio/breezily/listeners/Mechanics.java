@@ -29,10 +29,10 @@ public class Mechanics implements Listener {
 		ItemStack madera = new ItemStack(Material.WOOD);
 		madera.setAmount(64);
 		ItemMeta maderameta = madera.getItemMeta();
-		maderameta.setDisplayName("§dMadera");
+		maderameta.setDisplayName("Â§dMadera");
 		List<String> maderalore = new ArrayList<String>();
-		maderalore.add("§7Contruye con estos Bloques.");
-		maderalore.add("§7si no deja deberas activar con el comando §8/breezily§7!");
+		maderalore.add("Â§7Contruye con estos Bloques.");
+		maderalore.add("Â§7si no deja deberas activar con el comando Â§8/breezilyÂ§7!");
 		maderameta.setLore(maderalore);
 		madera.setItemMeta(maderameta);
 		
@@ -53,7 +53,7 @@ public class Mechanics implements Listener {
 				player.getItemInHand().setAmount(64);
 				player.updateInventory();
 			} else {
-				player.sendMessage("§cCasi, pero no jaja salu3 xDD");
+				player.sendMessage("Â§cNo puedes poner bloques aquÃ­!");
 			}
 		}
 	}
